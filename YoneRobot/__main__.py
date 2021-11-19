@@ -74,23 +74,22 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/ebf62ff4c5668adcfa28c.jpg), ɪᴍ ʏᴏɴᴇ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
+𝙷𝚎𝚕𝚕𝚘 [🥀](https://te.legra.ph/file/e06fcb156a0f508cf764b.jpg), 🥀𝙷𝚎𝚕𝚕𝚘🥀,𝙸'𝚖 𝚀𝚞𝚒𝚗𝚌𝚢 𝙰 𝚠𝚘𝚗𝚍𝚎𝚛𝚏𝚞𝚕𝚕 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍🎈 𝙱𝚘𝚝 𝚠𝚒𝚝𝚑 𝚕𝚘𝚝𝚜 𝚘𝚏 𝚊𝚖𝚊𝚣𝚒𝚗𝚐 𝚌𝚖𝚍𝚜. 📌𝙼𝚢 𝚘𝚠𝚗𝚎𝚛 𝚒𝚜 @SANTA_K1♥️🇱🇰.𝚑𝚊𝚟𝚎 𝚊 𝚙𝚛𝚘𝚋𝚕𝚎𝚖 𝚓𝚘𝚒𝚗 𝚞𝚜 @Quincy_Support .𝙷𝚒𝚝 /help 𝚝𝚘 𝚖𝚘𝚛𝚎🥀.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="➕️ 𝚊𝚍𝚍 𝚀𝚞𝚒𝚗𝚌𝚢 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 ➕️", url="t.me/Yone_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
+        InlineKeyboardButton(text="🥀𝙰𝚋𝚘𝚞𝚝 𝚀𝚞𝚒𝚗𝚌𝚢🥀", callback_data="yone_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🎈𝚀𝚞𝚎𝚗𝚌𝚢 𝚜𝚞𝚙𝚙𝚘𝚛𝚝🎈", url=f"https://t.me/{https://t.me/Quincy_Support}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="📌𝙷𝚎𝚕𝚙 𝚊𝚗𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜📌❔", callback_data="help_back"),
     ],
 ]
 
