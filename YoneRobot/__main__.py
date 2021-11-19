@@ -74,31 +74,35 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝚎𝚕𝚕𝚘 [🥀](https://te.legra.ph/file/e06fcb156a0f508cf764b.jpg), 🥀𝙷𝚎𝚕𝚕𝚘🥀,𝙸'𝚖 𝚀𝚞𝚒𝚗𝚌𝚢 𝙰 𝚠𝚘𝚗𝚍𝚎𝚛𝚏𝚞𝚕𝚕 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍🎈 𝙱𝚘𝚝 𝚠𝚒𝚝𝚑 𝚕𝚘𝚝𝚜 𝚘𝚏 𝚊𝚖𝚊𝚣𝚒𝚗𝚐 𝚌𝚖𝚍𝚜. 📌𝙼𝚢 𝚘𝚠𝚗𝚎𝚛 𝚒𝚜 @SANTA_K1♥️🇱🇰.𝚑𝚊𝚟𝚎 𝚊 𝚙𝚛𝚘𝚋𝚕𝚎𝚖 𝚓𝚘𝚒𝚗 𝚞𝚜 @Quincy_Support .𝙷𝚒𝚝 /help 𝚝𝚘 𝚖𝚘𝚛𝚎🥀.
+Hello [🥀](https://te.legra.ph/file/e06fcb156a0f508cf764b.jpg), 🎡I'm Quincy 🥀 A lovely bot with lots of Tools.I'm here to help you manage your groups.
+🍎My lovely owner is @SANTA_K1 🇱🇰🥀
+🎡If you have any problem contact us on @Quincy_Support
+♥️ Get updates @Quincy_updates
+🥀Get start me hit /help or buttons in the bellow🍂
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝚊𝚍𝚍 𝚀𝚞𝚒𝚗𝚌𝚢 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="🎡 Add Quincy to your group 🎡", url="t.me/Yone_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🥀𝙰𝚋𝚘𝚞𝚝 𝚀𝚞𝚒𝚗𝚌𝚢🥀", callback_data="yone_"),
+        InlineKeyboardButton(text="🥀About Quincy🥀", callback_data="yone_"),
         InlineKeyboardButton(
-            text="🎈𝚀𝚞𝚎𝚗𝚌𝚢 𝚜𝚞𝚙𝚙𝚘𝚛𝚝🎈", url=f"https://t.me/{https://t.me/Quincy_Support}"
+            text="🎈Quincy Support🎈", url=f"https://t.me/{https://t.me/Quincy_Support}"
         ),
     ],
     [
-        InlineKeyboardButton(text="📌𝙷𝚎𝚕𝚙 𝚊𝚗𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜📌❔", callback_data="help_back"),
+        InlineKeyboardButton(text="📖Help and commands📖", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [yone🙋‍♀️](https://telegra.ph/file/082096b101615e33eaf19.jpg) 
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+`🌷Hey baby🥀` [Quincy🙋‍♀️](https://te.legra.ph/file/e06fcb156a0f508cf764b.jpg) 
+`🍎Click buttons below and get documentation about me.🎡 Then l can manage your groups.🧘‍♂`"""
 
-yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+yone_IMG = "https://te.legra.ph/file/e06fcb156a0f508cf764b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @kittu5588 \
@@ -348,7 +352,7 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Quincy*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -356,7 +360,7 @@ def yone_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
+                 \nHere is the [Support chat🥀](https://t.me/Quincy_Support).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
